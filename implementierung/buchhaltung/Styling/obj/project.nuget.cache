@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1vqfMnCeYS9IonATlxKczHkp5lqAysfJ4yk8fy6wzyRCIh34PLZx3JMXrLRL3Wjx2kZGx1U9jjeKXQakNKIenQ==",
+  "success": true,
+  "projectFilePath": "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\Styling\\Styling.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dboss\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}
