@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Daniel\\source\\repos\\buchhaltung\\buchhaltung\\buchhaltung.csproj": {}
+    "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\buchhaltung\\buchhaltung.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Daniel\\source\\repos\\buchhaltung\\buchhaltung\\buchhaltung.csproj": {
+    "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\buchhaltung\\buchhaltung.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniel\\source\\repos\\buchhaltung\\buchhaltung\\buchhaltung.csproj",
+        "projectUniqueName": "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\buchhaltung\\buchhaltung.csproj",
         "projectName": "buchhaltung",
-        "projectPath": "C:\\Users\\Daniel\\source\\repos\\buchhaltung\\buchhaltung\\buchhaltung.csproj",
-        "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daniel\\source\\repos\\buchhaltung\\buchhaltung\\obj\\",
+        "projectPath": "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\buchhaltung\\buchhaltung.csproj",
+        "packagesPath": "C:\\Users\\dboss\\.nuget\\packages\\",
+        "outputPath": "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\buchhaltung\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\dboss\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -49,6 +53,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -57,7 +67,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "I:\\Programme\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
