@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\new\buchhaltung\implementierung\buchhaltung\buchhaltung\obj\Debug\netcoreapp3.1\
+D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\buchhaltung\obj\Debug\netcoreapp3.1\
 Shell
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
-C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\new\buchhaltung\implementierung\buchhaltung\buchhaltung\App.xaml
-2-682414870
+D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\buchhaltung\App.xaml
+4-820057668
 
-61317032274
-219-566793795
-MainWindow.xaml;Views\ChooseView.xaml;
+8-1807768659
+219-272811562
+MainWindow.xaml;Views\Calculation.xaml;Views\ChooseView.xaml;Views\DataGrid.xaml;
 
 False
 

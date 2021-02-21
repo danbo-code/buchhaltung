@@ -7,7 +7,13 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Views\Calculation.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\ChooseView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\DataGrid.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -15,7 +21,13 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Views\Calculation.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\ChooseView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\DataGrid.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
