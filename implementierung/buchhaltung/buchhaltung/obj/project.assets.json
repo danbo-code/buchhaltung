@@ -1624,6 +1624,23 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
+      "Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Database.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "Styling/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -6101,6 +6118,11 @@
       "path": "../CustomControls/CustomControls.csproj",
       "msbuildProject": "../CustomControls/CustomControls.csproj"
     },
+    "Database/1.0.0": {
+      "type": "project",
+      "path": "../Database/Database.csproj",
+      "msbuildProject": "../Database/Database.csproj"
+    },
     "Styling/1.0.0": {
       "type": "project",
       "path": "../Styling/Styling.csproj",
@@ -6110,6 +6132,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "CustomControls >= 1.0.0",
+      "Database >= 1.0.0",
       "EntityFramework >= 6.4.4",
       "Microsoft.EntityFrameworkCore >= 5.0.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.3",
@@ -6148,6 +6171,9 @@
           "projectReferences": {
             "C:\\Users\\Joshua\\Documents\\HBFSWI\\Gruppenprojekt\\new\\buchhaltung\\implementierung\\buchhaltung\\CustomControls\\CustomControls.csproj": {
               "projectPath": "C:\\Users\\Joshua\\Documents\\HBFSWI\\Gruppenprojekt\\new\\buchhaltung\\implementierung\\buchhaltung\\CustomControls\\CustomControls.csproj"
+            },
+            "C:\\Users\\Joshua\\Documents\\HBFSWI\\Gruppenprojekt\\new\\buchhaltung\\implementierung\\buchhaltung\\Database\\Database.csproj": {
+              "projectPath": "C:\\Users\\Joshua\\Documents\\HBFSWI\\Gruppenprojekt\\new\\buchhaltung\\implementierung\\buchhaltung\\Database\\Database.csproj"
             },
             "C:\\Users\\Joshua\\Documents\\HBFSWI\\Gruppenprojekt\\new\\buchhaltung\\implementierung\\buchhaltung\\Styling\\Styling.csproj": {
               "projectPath": "C:\\Users\\Joshua\\Documents\\HBFSWI\\Gruppenprojekt\\new\\buchhaltung\\implementierung\\buchhaltung\\Styling\\Styling.csproj"

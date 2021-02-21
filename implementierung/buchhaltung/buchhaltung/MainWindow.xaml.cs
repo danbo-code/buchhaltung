@@ -12,7 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Shell.Models;
+using Database;
+using Database.Models;
 using System.ComponentModel;
 using Microsoft.EntityFrameworkCore;
 
@@ -25,7 +26,7 @@ namespace buchhaltung
     {
         private ICollectionView CollectionView;
 
-        private buchhaltungContext Context = new buchhaltungContext();
+        private Database.Models.buchhaltungContext Context = new buchhaltungContext();
 
         public MainWindow()
         {

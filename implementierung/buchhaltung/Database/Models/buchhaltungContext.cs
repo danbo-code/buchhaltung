@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 #nullable disable
 
-namespace Shell.Models
+namespace Database.Models
 {
     public partial class buchhaltungContext : DbContext
     {

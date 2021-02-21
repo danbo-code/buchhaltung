@@ -9,6 +9,7 @@
       "Shell/1.0.0": {
         "dependencies": {
           "CustomControls": "1.0.0",
+          "Database": "1.0.0",
           "EntityFramework": "6.4.4",
           "Microsoft.EntityFrameworkCore": "5.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.3",
@@ -1096,6 +1097,15 @@
           "CustomControls.dll": {}
         }
       },
+      "Database/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.3"
+        },
+        "runtime": {
+          "Database.dll": {}
+        }
+      },
       "Styling/1.0.0": {
         "dependencies": {
           "CustomControls": "1.0.0"
@@ -1841,6 +1851,11 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "CustomControls/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Database/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

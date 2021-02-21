@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 #nullable disable
 
-namespace Shell.Models
+namespace Database.Models
 {
     public partial class Personal
     {

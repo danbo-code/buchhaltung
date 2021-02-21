@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 #nullable disable
 
-namespace Shell.Models
+namespace Database.Models
 {
-    public partial class Verkauf
+    public partial class Einkauf
     {
-        public int IdVerkauf { get; set; }
+        public int IdEinkauf { get; set; }
         public decimal? BetragNetto { get; set; }
         public DateTime? Datum { get; set; }
         public int? IdSteuersatz { get; set; }
