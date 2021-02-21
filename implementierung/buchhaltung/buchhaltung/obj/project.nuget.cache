@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+z6CAfhjFZt8V6oc5/tuynVU/GLbYTjjB0H7+WsUVDEV3/xebNZVXMgtHIovZl0i+lxo0R8hfPZphvkRcZN7bQ==",
+  "dgSpecHash": "ZIWC8eX+2fiNWUFDlv2FN008PLirM7hOhYDmWy1lKu6k/8+qUnkoGHW41y31JtOmuVvow7aaBlEO/k1R59FCuA==",
   "success": true,
-  "projectFilePath": "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\buchhaltung\\buchhaltung.csproj",
+  "projectFilePath": "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\buchhaltung\\Shell.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dboss\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
   ],

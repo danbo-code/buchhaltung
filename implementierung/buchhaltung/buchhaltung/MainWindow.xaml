@@ -7,24 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="Transparent">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-        <Grid Grid.Row="0" HorizontalAlignment="Stretch" VerticalAlignment="Center" MaxWidth="200" Grid.Column="0">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="20"/>
-            </Grid.RowDefinitions>
-            <ComboBox Grid.Row="2" >
-                <ComboBoxItem Content="Inhouse"></ComboBoxItem>
-                <ComboBoxItem Content="ToGo"></ComboBoxItem>
-                <ComboBoxItem></ComboBoxItem>
-            </ComboBox>
-        </Grid>
-       
+        <TabControl>
+            <TabItem Header="Beträge"></TabItem>
+            <TabItem Header="Tabelle"></TabItem>
+            <TabItem Header="Auswertung"></TabItem>
+        </TabControl>
+
     </Grid>
 </Window>

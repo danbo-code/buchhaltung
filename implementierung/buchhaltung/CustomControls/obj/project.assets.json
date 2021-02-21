@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\buchhaltung\\Shell.csproj",
-      "projectName": "Shell",
-      "projectPath": "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\buchhaltung\\Shell.csproj",
+      "projectUniqueName": "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\CustomControls\\CustomControls.csproj",
+      "projectName": "CustomControls",
+      "projectPath": "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\CustomControls\\CustomControls.csproj",
       "packagesPath": "C:\\Users\\dboss\\.nuget\\packages\\",
-      "outputPath": "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\buchhaltung\\obj\\",
+      "outputPath": "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\CustomControls\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
