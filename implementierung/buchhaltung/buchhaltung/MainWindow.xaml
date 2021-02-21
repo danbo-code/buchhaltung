@@ -8,17 +8,19 @@
         xmlns:local="clr-namespace:buchhaltung"
         xmlns:views="clr-namespace:Shell.Views"
         Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded"
-        mc:Ignorable="d">
+        mc:Ignorable="d"
+        >
+    
     <Grid>
         <TabControl>
             <TabItem>
                 <TabItem.Header>
-                    <TextBlock ></TextBlock>
+                    <TextBlock />
                 </TabItem.Header>
                 <views:ChooseView/>
             </TabItem>
             <TabItem Header="Tabelle">
-                <DataGrid x:Name="test" ItemsSource="{Binding }" AutoGenerateColumns="False" >
+                <DataGrid x:Name="test" ItemsSource="{Binding ''}" AutoGenerateColumns="False" >
                     <DataGrid.Columns>
                         <DataGridTextColumn Header="IDEinkauf" Binding="{Binding IdEinkauf}" />
                         <DataGridTextColumn Header="Betrag"  Binding="{Binding BetragNetto}" />
@@ -28,8 +30,7 @@
                     </DataGrid.Columns>
                 </DataGrid>
             </TabItem>
-            <TabItem Header="Auswertung"></TabItem>
+            <TabItem Header="Auswertung"/>
         </TabControl>
-
     </Grid>
 </Window>

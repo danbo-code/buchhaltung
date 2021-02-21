@@ -14,10 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Styles\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\CustomControls\CustomControls.csproj" />
   </ItemGroup>
 
