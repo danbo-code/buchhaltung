@@ -24,21 +24,13 @@ namespace buchhaltung
     /// </summary>
     public partial class MainWindow : Window
     {
-        private ICollectionView CollectionView;
 
-        private Database.Models.buchhaltungContext Context = new buchhaltungContext();
 
         public MainWindow()
         {
             InitializeComponent();
         }
 
-        private void Window_Loaded (object sender, RoutedEventArgs e)
-        {
-            Context.Einkauf.Load();
-            CollectionView = CollectionViewSource.GetDefaultView(Context.Einkauf.Local.ToObservableCollection());
-            test.DataContext = CollectionView;
-           
-        }
+        
     }
 }

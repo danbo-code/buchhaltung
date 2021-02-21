@@ -61,6 +61,6 @@
             <ComboBoxItem Content="November"></ComboBoxItem>
             <ComboBoxItem Content="Dezember"></ComboBoxItem>
         </ComboBox>
-        <ComboBox ></ComboBox>
+        <ComboBox></ComboBox>
     </Grid>
 </UserControl>

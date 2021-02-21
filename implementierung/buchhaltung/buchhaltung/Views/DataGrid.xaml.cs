@@ -1,5 +1,8 @@
-﻿using System;
+﻿using Database.Models;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data.Entity;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -18,9 +21,21 @@ namespace Shell.Views
     /// </summary>
     public partial class DataGrid : UserControl
     {
+        private ICollectionView CollectionView;
+
+        private Database.Models.buchhaltungContext Context = new buchhaltungContext();
+
+
         public DataGrid()
         {
             InitializeComponent();
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            Context.Einkauf.Load();
+            CollectionView = CollectionViewSource.GetDefaultView(Context.Einkauf.Local.ToObservableCollection());
+            test.DataContext = CollectionView;
         }
     }
 }
