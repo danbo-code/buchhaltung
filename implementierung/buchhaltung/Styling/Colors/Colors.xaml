@@ -1,0 +1,24 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Styling.Colors">
+
+    <Color x:Key="Color.Black">#000000</Color>
+    <Color x:Key="Color.OuterSpace">#2a3539</Color>
+    <Color x:Key="Color.Stone">#777d81</Color>
+    <Color x:Key="Color.Silver">#cccccc</Color>
+    <Color x:Key="Color.Mercury">#e5e5e5</Color>
+    <Color x:Key="Color.White">#FFFFFF</Color>
+    <Color x:Key="Color.CatWhite">#e9f2f5</Color>
+    <Color x:Key="Color.AppleGreen">#e4f5f2</Color>
+    <Color x:Key="Color.Bermuda">#76d6c8</Color>
+    <Color x:Key="Color.MountainMeadow">#1bbba3</Color>
+    <Color x:Key="Color.Astral">#307b96</Color>
+    <Color x:Key="Color.FountainBlue">#57a0ba</Color>
+    <Color x:Key="Color.LaPalma">#13ab0e</Color>
+    <Color x:Key="Color.Lemon">#F7F70C</Color>
+    <Color x:Key="Color.Zinnober">#e42346</Color>
+    <Color x:Key="Color.ScieneBlue">#0a71cc</Color>
+    <Color x:Key="Color.CuriousBlue">#1785E6</Color>
+    <Color x:Key="Color.DodgerBlue">#2096FE</Color>
+    
+</ResourceDictionary>

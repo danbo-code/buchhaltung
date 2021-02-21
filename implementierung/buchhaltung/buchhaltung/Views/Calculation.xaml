@@ -7,6 +7,41 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-            
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0">Fixkosten:</TextBlock>
+        <TextBlock Grid.Row="1">Ausgaben Nahrungsmittel:</TextBlock>
+        <TextBlock Grid.Row="2">Ausgaben Nicht-Nahrungsmittel:</TextBlock>
+        <TextBlock Grid.Row="3">Personalkosten:</TextBlock>
+        <TextBlock Grid.Row="4">Vorsteuer:</TextBlock>
+        <TextBlock Grid.Row="5">Umsatz:</TextBlock>
+        <TextBlock Grid.Row="6">Umsatzsteuer:</TextBlock>
+        <TextBlock Grid.Row="7">Gewinn:</TextBlock>
+        <TextBlock Grid.Row="8">Gewerbesteuer:</TextBlock>
+        <TextBlock Grid.Row="9">Reingewinn:</TextBlock>
+        <TextBlock Grid.Column="1" Grid.Row="0"></TextBlock>
+        <TextBlock Grid.Column="2" Grid.Row="0"></TextBlock>
+        <TextBlock Grid.Column="3" Grid.Row="0"></TextBlock>
+        <TextBlock Grid.Column="4" Grid.Row="0"></TextBlock>
+        <TextBlock Grid.Column="5" Grid.Row="0"></TextBlock>
+        <TextBlock Grid.Column="6" Grid.Row="0"></TextBlock>
+        <TextBlock Grid.Column="7" Grid.Row="0"></TextBlock>
+        <TextBlock Grid.Column="8" Grid.Row="0"></TextBlock>
+        <TextBlock Grid.Column="9" Grid.Row="0"></TextBlock>
     </Grid>
 </UserControl>

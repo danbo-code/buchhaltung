@@ -1,0 +1,25 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Styling.Colors">
+
+    <SolidColorBrush x:Key="Brush.Black" Color="{StaticResource Color.Black}" />
+    <SolidColorBrush x:Key="Brush.OuterSpace" Color="{StaticResource Color.OuterSpace}" />
+    <SolidColorBrush x:Key="Brush.Stone" Color="{StaticResource Color.RollingStone}" />
+    <SolidColorBrush x:Key="Brush.Silver" Color="{StaticResource Color.Silver}" />
+    <SolidColorBrush x:Key="Brush.Mercury" Color="{StaticResource Color.Mercury}" />
+    <SolidColorBrush x:Key="Brush.White" Color="{StaticResource Color.White}" />
+    <SolidColorBrush x:Key="Brush.CatWhite" Color="{StaticResource Color.CatskillWhite}" />
+    <SolidColorBrush x:Key="Brush.AppleGreen" Color="{StaticResource Color.AppleGreen}" />
+    <SolidColorBrush x:Key="Brush.Bermuda" Color="{StaticResource Color.Bermuda}" />
+    <SolidColorBrush x:Key="Brush.MountainMeadow" Color="{StaticResource Color.MountainMeadow}" />
+    <SolidColorBrush x:Key="Brush.Astral" Color="{StaticResource Color.Astral}" />
+    <SolidColorBrush x:Key="Brush.FountainBlue" Color="{StaticResource Color.FountainBlue}" />
+    <SolidColorBrush x:Key="Brush.LaPalma" Color="{StaticResource Color.LaPalma}" />
+    <SolidColorBrush x:Key="Brush.Lemon" Color="{StaticResource Color.Lemon}" />
+    <SolidColorBrush x:Key="Brush.Zinnober" Color="{StaticResource Color.Amaranth}" />
+    <SolidColorBrush x:Key="Brush.ScieneBlue" Color="{StaticResource Color.ScieneBlue}" />
+    <SolidColorBrush x:Key="Brush.CuriousBlue" Color="{StaticResource Color.CuriousBlue}" />
+    <SolidColorBrush x:Key="Brush.DodgerBlue" Color="{StaticResource Color.DodgerBlue}" />
+    <SolidColorBrush x:Key="Brush.Transparent" Color="Transparent" />
+    
+</ResourceDictionary>

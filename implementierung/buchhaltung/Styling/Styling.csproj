@@ -7,10 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Colors\" />
-    <Folder Include="Helper\" />
+    <Compile Remove="Helper\**" />
+    <EmbeddedResource Remove="Helper\**" />
+    <None Remove="Helper\**" />
+    <Page Remove="Helper\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Styles\" />
-    <Folder Include="Settings\" />
   </ItemGroup>
 
   <ItemGroup>

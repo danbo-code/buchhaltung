@@ -6,4 +6,15 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
   </ItemGroup>
+  <ItemGroup>
+    <Page Update="Colors\Brushes.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Colors\Colors.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Settings\Constants.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
 </Project>
