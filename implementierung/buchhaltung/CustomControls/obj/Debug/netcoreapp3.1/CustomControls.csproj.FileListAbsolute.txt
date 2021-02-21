@@ -1,0 +1,14 @@
+D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\CustomControls\bin\Debug\netcoreapp3.1\CustomControls.exe
+D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\CustomControls\bin\Debug\netcoreapp3.1\CustomControls.deps.json
+D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\CustomControls\bin\Debug\netcoreapp3.1\CustomControls.runtimeconfig.json
+D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\CustomControls\bin\Debug\netcoreapp3.1\CustomControls.runtimeconfig.dev.json
+D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\CustomControls\bin\Debug\netcoreapp3.1\CustomControls.dll
+D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\CustomControls\bin\Debug\netcoreapp3.1\CustomControls.pdb
+D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\CustomControls\obj\Debug\netcoreapp3.1\App.g.cs
+D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\CustomControls\obj\Debug\netcoreapp3.1\CustomControls_MarkupCompile.cache
+D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\CustomControls\obj\Debug\netcoreapp3.1\CustomControls.AssemblyInfoInputs.cache
+D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\CustomControls\obj\Debug\netcoreapp3.1\CustomControls.AssemblyInfo.cs
+D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\CustomControls\obj\Debug\netcoreapp3.1\CustomControls.csproj.CoreCompileInputs.cache
+D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\CustomControls\obj\Debug\netcoreapp3.1\CustomControls.dll
+D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\CustomControls\obj\Debug\netcoreapp3.1\CustomControls.pdb
+D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\CustomControls\obj\Debug\netcoreapp3.1\CustomControls.genruntimeconfig.cache

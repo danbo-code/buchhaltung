@@ -1,4 +1,4 @@
-﻿namespace CustomControls
+﻿namespace CustomControls.Structure
     {
     public enum FontAwesomeEnum
     {

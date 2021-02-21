@@ -4,11 +4,13 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:buchhaltung"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid Background="Transparent">
+        xmlns:views="clr-namespace:Shell.Views"
+        Title="MainWindow" Height="450" Width="800"
+        mc:Ignorable="d">
+    <Grid>
         <TabControl>
-            <TabItem Header="Beträge"></TabItem>
+            <TabItem Header="Beträge">
+            </TabItem>
             <TabItem Header="Tabelle"></TabItem>
             <TabItem Header="Auswertung"></TabItem>
         </TabControl>

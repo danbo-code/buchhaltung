@@ -1,11 +1,33 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "CustomControls/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/CustomControls.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CustomControls.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CustomControls/1.0.0": {
+      "type": "project",
+      "path": "../CustomControls/CustomControls.csproj",
+      "msbuildProject": "../CustomControls/CustomControls.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "CustomControls >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\dboss\\.nuget\\packages\\": {},
@@ -38,7 +60,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\CustomControls\\CustomControls.csproj": {
+              "projectPath": "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\CustomControls\\CustomControls.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
