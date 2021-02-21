@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\Styling\App.xaml
-4-588397402
+51752638816
 
 5-493104942
 1931445031979
-Colors\Brushes.xaml;Colors\Colors.xaml;Settings\Constants.xaml;Styles\TextBlock.xaml;
+Colors\Brushes.xaml;Colors\Colors.xaml;DefaultStyles.xaml;Settings\Constants.xaml;Styles\TextBlock.xaml;
 
-True
+False
 

@@ -103,12 +103,8 @@ D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\D
 D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\Database\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\Database\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\Database\obj\Debug\netcoreapp3.1\Database.csprojAssemblyReference.cache
-D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\Database\obj\Debug\netcoreapp3.1\MainWindow.g.cs
 D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\Database\obj\Debug\netcoreapp3.1\App.g.cs
 D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\Database\obj\Debug\netcoreapp3.1\Database_MarkupCompile.cache
-D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\Database\obj\Debug\netcoreapp3.1\Database_MarkupCompile.lref
-D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\Database\obj\Debug\netcoreapp3.1\MainWindow.baml
-D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\Database\obj\Debug\netcoreapp3.1\Database.g.resources
 D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\Database\obj\Debug\netcoreapp3.1\Database.AssemblyInfoInputs.cache
 D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\Database\obj\Debug\netcoreapp3.1\Database.AssemblyInfo.cs
 D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\Database\obj\Debug\netcoreapp3.1\Database.csproj.CoreCompileInputs.cache

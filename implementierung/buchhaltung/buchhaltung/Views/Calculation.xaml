@@ -6,12 +6,16 @@
              xmlns:local="clr-namespace:Shell.Views"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <Style BasedOn="{StaticResource TextStyle.Regular.18}" TargetType="{x:Type TextBlock}"/>
+    </UserControl.Resources>
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="2*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
+            <RowDefinition Height="0.7*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
@@ -24,24 +28,39 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <TextBlock Grid.Row="0">Fixkosten:</TextBlock>
-        <TextBlock Grid.Row="1">Ausgaben Nahrungsmittel:</TextBlock>
-        <TextBlock Grid.Row="2">Ausgaben Nicht-Nahrungsmittel:</TextBlock>
-        <TextBlock Grid.Row="3">Personalkosten:</TextBlock>
-        <TextBlock Grid.Row="4">Vorsteuer:</TextBlock>
-        <TextBlock Grid.Row="5">Umsatz:</TextBlock>
-        <TextBlock Grid.Row="6">Umsatzsteuer:</TextBlock>
-        <TextBlock Grid.Row="7">Gewinn:</TextBlock>
-        <TextBlock Grid.Row="8">Gewerbesteuer:</TextBlock>
-        <TextBlock Grid.Row="9">Reingewinn:</TextBlock>
-        <TextBlock Grid.Column="1" Grid.Row="0"></TextBlock>
-        <TextBlock Grid.Column="2" Grid.Row="0"></TextBlock>
-        <TextBlock Grid.Column="3" Grid.Row="0"></TextBlock>
-        <TextBlock Grid.Column="4" Grid.Row="0"></TextBlock>
-        <TextBlock Grid.Column="5" Grid.Row="0"></TextBlock>
-        <TextBlock Grid.Column="6" Grid.Row="0"></TextBlock>
-        <TextBlock Grid.Column="7" Grid.Row="0"></TextBlock>
-        <TextBlock Grid.Column="8" Grid.Row="0"></TextBlock>
-        <TextBlock Grid.Column="9" Grid.Row="0"></TextBlock>
+        <TextBlock Grid.Row="1">Fixkosten:</TextBlock>
+        <TextBlock Grid.Row="2">Ausgaben Nahrungsmittel:</TextBlock>
+        <TextBlock Grid.Row="3">Ausgaben Nicht-Nahrungsmittel:</TextBlock>
+        <TextBlock Grid.Row="4">Personalkosten:</TextBlock>
+        <TextBlock Grid.Row="5">Vorsteuer:</TextBlock>
+        <TextBlock Grid.Row="6">Umsatz:</TextBlock>
+        <TextBlock Grid.Row="7">Umsatzsteuer:</TextBlock>
+        <TextBlock Grid.Row="8">Gewinn:</TextBlock>
+        <TextBlock Grid.Row="9">Gewerbesteuer:</TextBlock>
+        <TextBlock Grid.Row="10">Reingewinn:</TextBlock>
+        <TextBlock Grid.Column="1" Grid.Row="0" HorizontalAlignment="Left"></TextBlock>
+        <TextBlock Grid.Column="2" Grid.Row="0" HorizontalAlignment="Left"></TextBlock>
+        <TextBlock Grid.Column="3" Grid.Row="0" HorizontalAlignment="Left"></TextBlock>
+        <TextBlock Grid.Column="4" Grid.Row="0" HorizontalAlignment="Left"></TextBlock>
+        <TextBlock Grid.Column="5" Grid.Row="0" HorizontalAlignment="Left"></TextBlock>
+        <TextBlock Grid.Column="6" Grid.Row="0" HorizontalAlignment="Left"></TextBlock>
+        <TextBlock Grid.Column="7" Grid.Row="0" HorizontalAlignment="Left"></TextBlock>
+        <TextBlock Grid.Column="8" Grid.Row="0" HorizontalAlignment="Left"></TextBlock>
+        <TextBlock Grid.Column="9" Grid.Row="0" HorizontalAlignment="Left"></TextBlock>
+        <ComboBox Grid.Row="0" Grid.Column="1">
+            <ComboBoxItem Content="Januar"></ComboBoxItem>
+            <ComboBoxItem Content="Februar"></ComboBoxItem>
+            <ComboBoxItem Content="März"></ComboBoxItem>
+            <ComboBoxItem Content="April"></ComboBoxItem>
+            <ComboBoxItem Content="Mai"></ComboBoxItem>
+            <ComboBoxItem Content="Juni"></ComboBoxItem>
+            <ComboBoxItem Content="Juli"></ComboBoxItem>
+            <ComboBoxItem Content="August"></ComboBoxItem>
+            <ComboBoxItem Content="September"></ComboBoxItem>
+            <ComboBoxItem Content="Oktober"></ComboBoxItem>
+            <ComboBoxItem Content="November"></ComboBoxItem>
+            <ComboBoxItem Content="Dezember"></ComboBoxItem>
+        </ComboBox>
+        <ComboBox ></ComboBox>
     </Grid>
 </UserControl>

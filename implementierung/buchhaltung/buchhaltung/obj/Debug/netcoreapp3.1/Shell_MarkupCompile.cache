@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\buchhaltung\App.xaml
-2-682414870
+4-820057668
 
-4-1705302395
+6-535136032
 219-272811562
-MainWindow.xaml;Views\ChooseView.xaml;
+MainWindow.xaml;Views\Calculation.xaml;Views\ChooseView.xaml;Views\DataGrid.xaml;
 
 False
 

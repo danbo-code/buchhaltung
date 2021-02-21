@@ -156,3 +156,8 @@ D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\b
 D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\buchhaltung\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\buchhaltung\bin\Debug\netcoreapp3.1\Database.dll
 D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\buchhaltung\bin\Debug\netcoreapp3.1\Database.pdb
+D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\buchhaltung\obj\Debug\netcoreapp3.1\Views\Calculation.g.cs
+D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\buchhaltung\obj\Debug\netcoreapp3.1\Views\DataGrid.g.cs
+D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\buchhaltung\obj\Debug\netcoreapp3.1\Views\Calculation.baml
+D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\buchhaltung\obj\Debug\netcoreapp3.1\Views\DataGrid.baml
+D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\buchhaltung\obj\Debug\netcoreapp3.1\App.baml

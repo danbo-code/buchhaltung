@@ -8,9 +8,8 @@
         xmlns:local="clr-namespace:buchhaltung"
         xmlns:views="clr-namespace:Shell.Views"
         Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded"
-        mc:Ignorable="d"
-        >
-    
+        mc:Ignorable="d">
+
     <Grid>
         <TabControl>
             <TabItem>
@@ -30,7 +29,9 @@
                     </DataGrid.Columns>
                 </DataGrid>
             </TabItem>
-            <TabItem Header="Auswertung"/>
+            <TabItem Header="Auswertung">
+                <views:Calculation/>
+            </TabItem>
         </TabControl>
     </Grid>
 </Window>

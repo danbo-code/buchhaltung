@@ -36,3 +36,11 @@ C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\new\buchhaltung\implementierung\
 C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\new\buchhaltung\implementierung\buchhaltung\Styling\obj\Debug\netcoreapp3.1\Styling.dll
 C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\new\buchhaltung\implementierung\buchhaltung\Styling\obj\Debug\netcoreapp3.1\Styling.pdb
 C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\new\buchhaltung\implementierung\buchhaltung\Styling\obj\Debug\netcoreapp3.1\Styling.genruntimeconfig.cache
+D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\Styling\obj\Debug\netcoreapp3.1\Styling_MarkupCompile.lref
+D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\Styling\obj\Debug\netcoreapp3.1\App.baml
+D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\Styling\obj\Debug\netcoreapp3.1\Colors\Brushes.baml
+D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\Styling\obj\Debug\netcoreapp3.1\Colors\Colors.baml
+D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\Styling\obj\Debug\netcoreapp3.1\DefaultStyles.baml
+D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\Styling\obj\Debug\netcoreapp3.1\Settings\Constants.baml
+D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\Styling\obj\Debug\netcoreapp3.1\Styles\TextBlock.baml
+D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\Styling\obj\Debug\netcoreapp3.1\Styling.g.resources
