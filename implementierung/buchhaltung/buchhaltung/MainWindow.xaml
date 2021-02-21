@@ -3,13 +3,19 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:structure="clr-namespace:Styling.Structure;assembly=Styling"
+        xmlns:customControls="clr-namespace:CustomControls;assembly=CustomControls"
         xmlns:local="clr-namespace:buchhaltung"
         xmlns:views="clr-namespace:Shell.Views"
         Title="MainWindow" Height="450" Width="800"
         mc:Ignorable="d">
     <Grid>
         <TabControl>
-            <TabItem Header="Beträge">
+            <TabItem>
+                <TabItem.Header>
+                    <TextBlock ></TextBlock>
+                </TabItem.Header>
+                <views:ChooseView/>
             </TabItem>
             <TabItem Header="Tabelle"></TabItem>
             <TabItem Header="Auswertung"></TabItem>
