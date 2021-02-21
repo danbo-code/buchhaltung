@@ -7,7 +7,7 @@
         xmlns:customControls="clr-namespace:CustomControls;assembly=CustomControls"
         xmlns:local="clr-namespace:buchhaltung"
         xmlns:views="clr-namespace:Shell.Views"
-        Title="MainWindow" Height="450" Width="800"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded"
         mc:Ignorable="d">
     <Grid>
         <TabControl>
@@ -17,7 +17,17 @@
                 </TabItem.Header>
                 <views:ChooseView/>
             </TabItem>
-            <TabItem Header="Tabelle"></TabItem>
+            <TabItem Header="Tabelle">
+                <DataGrid x:Name="test" ItemsSource="{Binding }" AutoGenerateColumns="False" >
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="IDEinkauf" Binding="{Binding IdEinkauf}" />
+                        <DataGridTextColumn Header="Betrag"  Binding="{Binding BetragNetto}" />
+                        <DataGridTextColumn Header="Datum"  Binding="{Binding Datum}" />
+                        <DataGridTextColumn Header="IDSteuersatz" Binding="{Binding IdSteuersatz}" />
+
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
             <TabItem Header="Auswertung"></TabItem>
         </TabControl>
 

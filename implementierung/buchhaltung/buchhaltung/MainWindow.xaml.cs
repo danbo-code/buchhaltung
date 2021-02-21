@@ -12,6 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Shell.Models;
+using System.ComponentModel;
+using Microsoft.EntityFrameworkCore;
 
 namespace buchhaltung
 {
@@ -20,9 +23,21 @@ namespace buchhaltung
     /// </summary>
     public partial class MainWindow : Window
     {
+        private ICollectionView CollectionView;
+
+        private buchhaltungContext Context = new buchhaltungContext();
+
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Window_Loaded (object sender, RoutedEventArgs e)
+        {
+            Context.Einkauf.Load();
+            CollectionView = CollectionViewSource.GetDefaultView(Context.Einkauf.Local.ToObservableCollection());
+            test.DataContext = CollectionView;
+           
         }
     }
 }
