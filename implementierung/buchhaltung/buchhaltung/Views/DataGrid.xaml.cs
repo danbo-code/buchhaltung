@@ -26,6 +26,7 @@ namespace Shell.Views
     {
         private ICollectionView CollectionView;
 
+
         private buchhaltungContext Context = new buchhaltungContext();
 
 
@@ -45,7 +46,7 @@ namespace Shell.Views
                 case 1:
                     Context.Einkauf.Load();
                     CollectionView = CollectionViewSource.GetDefaultView(Context.Einkauf.Local.ToObservableCollection());
-                    
+                    CollectionView.Filter = (x => true);
                     break;
 
                 case 2:
@@ -63,7 +64,7 @@ namespace Shell.Views
                 case 4:
                     Context.Verkauf.Load();
                     CollectionView = CollectionViewSource.GetDefaultView(Context.Verkauf.Local.ToObservableCollection());
-                    
+                    CollectionView.Filter = (x => true);
                     break;
 
                 case 5:
