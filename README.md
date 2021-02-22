@@ -13,6 +13,8 @@ In der Tabelle (Tab 2) kann man sich Beträge aus verschiedenen Zeiträumen und 
 Auf Tab 3 (Auswertung) werden zu den einzelnen eingetragenen Beträgen die Umsatzsteuer, die Vorsteuer, die Gewinnsteuer und
 den Reingewinn/-verlust berechnet.
 
+![alt text]()
+
 Teammiglieder:
 dbossmann
 JoshuaK98
