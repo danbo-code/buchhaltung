@@ -10,6 +10,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="20"/>
             <RowDefinition Height="20"/>
+            <RowDefinition Height="10"/>
             <RowDefinition Height="20"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
@@ -18,8 +19,8 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <TextBlock Grid.Row="0" Grid.ColumnSpan="2">Welche Tabelle möchten Sie einsehen?.</TextBlock>
-        
-        <ComboBox Margin="10,0" x:Name="Auswahl_Tabelle" Grid.Row="2" Grid.Column="0" SelectionChanged="Auswahl_Tabelle_SelectionChanged">
+        <Button x:Name="Speichern" Content="Änderungen Speichern" Grid.Row="1" Grid.Column="1" ClickMode="Release" Click="Speichern_Click" />
+        <ComboBox Margin="10,0" x:Name="Auswahl_Tabelle" Grid.Row="1" Grid.Column="0" SelectionChanged="Auswahl_Tabelle_SelectionChanged">
             <ComboBoxItem Content="1 Einkauf Gesamt"></ComboBoxItem>
             <ComboBoxItem Content="2 Einkauf Food"></ComboBoxItem>
             <ComboBoxItem Content="3 Einkauf NonFood"></ComboBoxItem>
@@ -34,7 +35,8 @@
         </ComboBox>
         <DataGrid x:Name="Anzeige_tabellen" Grid.Row="3" Grid.RowSpan="3" Grid.ColumnSpan="2" CanUserAddRows="True" ItemsSource="{Binding Path=. , Mode=TwoWay}" AutoGenerateColumns="True" >
             <DataGrid.Columns>
-                
+                <DataGridCheckBoxColumn Header="Löschen">
+                </DataGridCheckBoxColumn>
             </DataGrid.Columns>
         </DataGrid>
     </Grid>
