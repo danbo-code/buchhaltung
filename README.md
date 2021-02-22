@@ -13,6 +13,16 @@ In der Tabelle (Tab 2) kann man sich Beträge aus verschiedenen Zeiträumen und 
 Auf Tab 3 (Auswertung) werden zu den einzelnen eingetragenen Beträgen die Umsatzsteuer, die Vorsteuer, die Gewinnsteuer und
 den Reingewinn/-verlust berechnet.
 
+Screenshots:
+Tab 1
+![alt text](https://github.com/danbo-code/buchhaltung/blob/main/planungsdokumente/Screenshot%20Tab%201.rtf)
+
+Tab 2
+![alt text](https://github.com/danbo-code/buchhaltung/blob/main/planungsdokumente/Screenshot%20Tab%202.rtf)
+
+Tab 3
+![alt text](https://github.com/danbo-code/buchhaltung/blob/main/planungsdokumente/Screenshots%20Tab%203.rtf)
+
 Teammiglieder:
 dbossmann
 JoshuaK98
