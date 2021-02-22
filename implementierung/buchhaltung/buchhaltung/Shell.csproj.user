@@ -10,9 +10,6 @@
     <Compile Update="Views\Calculation.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\ChooseView.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="Views\DataGrid.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -22,9 +19,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\Calculation.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Views\ChooseView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\DataGrid.xaml">

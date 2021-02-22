@@ -35,7 +35,7 @@ namespace Shell.Views
             InitializeComponent();
         }
 
-        
+
 
         private void Auswahl_Tabelle_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
@@ -82,7 +82,7 @@ namespace Shell.Views
                 case 7:
                     Context.Personal.Load();
                     CollectionView = CollectionViewSource.GetDefaultView(Context.Personal.Local.ToObservableCollection());
-                    
+
                     break;
 
                 case 8:
@@ -143,18 +143,7 @@ namespace Shell.Views
 
         private void Speichern_Click(object sender, RoutedEventArgs e)
         {
-
-
-            for (int i = 0; i < Anzeige_tabellen.Items.Count; i++)
-            {
-                var item = Anzeige_tabellen.Items[i];
-                var mycheckbox = Anzeige_tabellen.Columns[0].GetCellContent(item) as CheckBox;
-                if ((bool)mycheckbox.IsChecked)
-                {
-                    
-                }
-            }
-                    Context.SaveChanges();
+            Context.SaveChanges();
         }
     }
 }

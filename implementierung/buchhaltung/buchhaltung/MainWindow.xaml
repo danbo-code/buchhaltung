@@ -13,9 +13,6 @@
     <Grid>
         <TabControl>
             <TabItem Header="Datenerfassung">
-                <views:ChooseView/>
-            </TabItem>
-            <TabItem Header="Tabelle">
                 <views:DataGrid/>
             </TabItem>
             <TabItem Header="Auswertung">

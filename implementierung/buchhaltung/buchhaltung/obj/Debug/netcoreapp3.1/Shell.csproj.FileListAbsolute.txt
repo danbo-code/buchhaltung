@@ -5,12 +5,10 @@ D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\b
 D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\buchhaltung\bin\Debug\netcoreapp3.1\Shell.dll
 D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\buchhaltung\bin\Debug\netcoreapp3.1\Shell.pdb
 D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\buchhaltung\obj\Debug\netcoreapp3.1\MainWindow.g.cs
-D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\buchhaltung\obj\Debug\netcoreapp3.1\Views\ChooseView.g.cs
 D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\buchhaltung\obj\Debug\netcoreapp3.1\App.g.cs
 D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\buchhaltung\obj\Debug\netcoreapp3.1\Shell_MarkupCompile.cache
 D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\buchhaltung\obj\Debug\netcoreapp3.1\Shell_MarkupCompile.lref
 D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\buchhaltung\obj\Debug\netcoreapp3.1\MainWindow.baml
-D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\buchhaltung\obj\Debug\netcoreapp3.1\Views\ChooseView.baml
 D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\buchhaltung\obj\Debug\netcoreapp3.1\Shell.g.resources
 D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\buchhaltung\obj\Debug\netcoreapp3.1\Shell.AssemblyInfoInputs.cache
 D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\buchhaltung\obj\Debug\netcoreapp3.1\Shell.AssemblyInfo.cs
