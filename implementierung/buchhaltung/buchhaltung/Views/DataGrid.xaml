@@ -33,7 +33,7 @@
             <ComboBoxItem Content="November"></ComboBoxItem>
             <ComboBoxItem Content="Dezember"></ComboBoxItem>
         </ComboBox>
-        <DataGrid x:Name="test" Grid.Row="3" Grid.RowSpan="3" Grid.ColumnSpan="2" ItemsSource="{Binding ''}" AutoGenerateColumns="False" >
+        <DataGrid x:Name="test" Grid.Row="3" Grid.RowSpan="3" Grid.ColumnSpan="2" CanUserAddRows="True" ItemsSource="{Binding ''}" AutoGenerateColumns="False" >
             <DataGrid.Columns>
                 <DataGridTextColumn Header="IDEinkauf" Binding="{Binding IdEinkauf}" />
                 <DataGridTextColumn Header="Betrag"  Binding="{Binding BetragNetto}" />

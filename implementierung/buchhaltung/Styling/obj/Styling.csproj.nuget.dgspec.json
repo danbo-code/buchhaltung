@@ -1,24 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Joshua\\Documents\\HBFSWI\\Gruppenprojekt\\Neuer Ordner\\buchhaltung\\implementierung\\buchhaltung\\Styling\\Styling.csproj": {}
+    "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\Styling\\Styling.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Joshua\\Documents\\HBFSWI\\Gruppenprojekt\\Neuer Ordner\\buchhaltung\\implementierung\\buchhaltung\\CustomControls\\CustomControls.csproj": {
+    "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\CustomControls\\CustomControls.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Joshua\\Documents\\HBFSWI\\Gruppenprojekt\\Neuer Ordner\\buchhaltung\\implementierung\\buchhaltung\\CustomControls\\CustomControls.csproj",
+        "projectUniqueName": "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\CustomControls\\CustomControls.csproj",
         "projectName": "CustomControls",
-        "projectPath": "C:\\Users\\Joshua\\Documents\\HBFSWI\\Gruppenprojekt\\Neuer Ordner\\buchhaltung\\implementierung\\buchhaltung\\CustomControls\\CustomControls.csproj",
-        "packagesPath": "C:\\Users\\Joshua\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Joshua\\Documents\\HBFSWI\\Gruppenprojekt\\Neuer Ordner\\buchhaltung\\implementierung\\buchhaltung\\CustomControls\\obj\\",
+        "projectPath": "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\CustomControls\\CustomControls.csproj",
+        "packagesPath": "C:\\Users\\dboss\\.nuget\\packages\\",
+        "outputPath": "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\CustomControls\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Joshua\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\dboss\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -52,6 +53,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -64,21 +71,22 @@
         }
       }
     },
-    "C:\\Users\\Joshua\\Documents\\HBFSWI\\Gruppenprojekt\\Neuer Ordner\\buchhaltung\\implementierung\\buchhaltung\\Styling\\Styling.csproj": {
+    "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\Styling\\Styling.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Joshua\\Documents\\HBFSWI\\Gruppenprojekt\\Neuer Ordner\\buchhaltung\\implementierung\\buchhaltung\\Styling\\Styling.csproj",
+        "projectUniqueName": "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\Styling\\Styling.csproj",
         "projectName": "Styling",
-        "projectPath": "C:\\Users\\Joshua\\Documents\\HBFSWI\\Gruppenprojekt\\Neuer Ordner\\buchhaltung\\implementierung\\buchhaltung\\Styling\\Styling.csproj",
-        "packagesPath": "C:\\Users\\Joshua\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Joshua\\Documents\\HBFSWI\\Gruppenprojekt\\Neuer Ordner\\buchhaltung\\implementierung\\buchhaltung\\Styling\\obj\\",
+        "projectPath": "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\Styling\\Styling.csproj",
+        "packagesPath": "C:\\Users\\dboss\\.nuget\\packages\\",
+        "outputPath": "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\Styling\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Joshua\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\dboss\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -91,8 +99,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Joshua\\Documents\\HBFSWI\\Gruppenprojekt\\Neuer Ordner\\buchhaltung\\implementierung\\buchhaltung\\CustomControls\\CustomControls.csproj": {
-                "projectPath": "C:\\Users\\Joshua\\Documents\\HBFSWI\\Gruppenprojekt\\Neuer Ordner\\buchhaltung\\implementierung\\buchhaltung\\CustomControls\\CustomControls.csproj"
+              "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\CustomControls\\CustomControls.csproj": {
+                "projectPath": "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\CustomControls\\CustomControls.csproj"
               }
             }
           }
@@ -116,6 +124,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
