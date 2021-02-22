@@ -7,7 +7,7 @@
         xmlns:customControls="clr-namespace:CustomControls;assembly=CustomControls"
         xmlns:local="clr-namespace:buchhaltung"
         xmlns:views="clr-namespace:Shell.Views"
-        Title="MainWindow" Height="450" Width="800" 
+        Title="Restaurant Buchhaltung" Height="450" Width="800" 
         mc:Ignorable="d">
 
     <Grid>
