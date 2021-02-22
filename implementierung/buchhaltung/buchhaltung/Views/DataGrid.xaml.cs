@@ -143,7 +143,18 @@ namespace Shell.Views
 
         private void Speichern_Click(object sender, RoutedEventArgs e)
         {
-            Context.SaveChanges();
+
+
+            for (int i = 0; i < Anzeige_tabellen.Items.Count; i++)
+            {
+                var item = Anzeige_tabellen.Items[i];
+                var mycheckbox = Anzeige_tabellen.Columns[0].GetCellContent(item) as CheckBox;
+                if ((bool)mycheckbox.IsChecked)
+                {
+                    
+                }
+            }
+                    Context.SaveChanges();
         }
     }
 }

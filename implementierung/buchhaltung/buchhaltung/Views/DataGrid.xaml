@@ -35,8 +35,9 @@
         </ComboBox>
         <DataGrid x:Name="Anzeige_tabellen" Grid.Row="3" Grid.RowSpan="3" Grid.ColumnSpan="2" CanUserAddRows="True" ItemsSource="{Binding Path=. , Mode=TwoWay}" AutoGenerateColumns="True" >
             <DataGrid.Columns>
-                <DataGridCheckBoxColumn Header="Löschen">
+                <DataGridCheckBoxColumn x:Name="loeschen_auswahl" Header="Löschen">
                 </DataGridCheckBoxColumn>
+                
             </DataGrid.Columns>
         </DataGrid>
     </Grid>

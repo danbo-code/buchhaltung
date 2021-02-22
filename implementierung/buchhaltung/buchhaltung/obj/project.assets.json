@@ -6141,25 +6141,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dboss\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Joshua\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\buchhaltung\\Shell.csproj",
+      "projectUniqueName": "C:\\Users\\Joshua\\Documents\\HBFSWI\\Gruppenprojekt\\Neuer Ordner\\buchhaltung\\implementierung\\buchhaltung\\buchhaltung\\Shell.csproj",
       "projectName": "Shell",
-      "projectPath": "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\buchhaltung\\Shell.csproj",
-      "packagesPath": "C:\\Users\\dboss\\.nuget\\packages\\",
-      "outputPath": "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\buchhaltung\\obj\\",
+      "projectPath": "C:\\Users\\Joshua\\Documents\\HBFSWI\\Gruppenprojekt\\Neuer Ordner\\buchhaltung\\implementierung\\buchhaltung\\buchhaltung\\Shell.csproj",
+      "packagesPath": "C:\\Users\\Joshua\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Joshua\\Documents\\HBFSWI\\Gruppenprojekt\\Neuer Ordner\\buchhaltung\\implementierung\\buchhaltung\\buchhaltung\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\dboss\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Joshua\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -6172,14 +6171,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\CustomControls\\CustomControls.csproj": {
-              "projectPath": "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\CustomControls\\CustomControls.csproj"
+            "C:\\Users\\Joshua\\Documents\\HBFSWI\\Gruppenprojekt\\Neuer Ordner\\buchhaltung\\implementierung\\buchhaltung\\CustomControls\\CustomControls.csproj": {
+              "projectPath": "C:\\Users\\Joshua\\Documents\\HBFSWI\\Gruppenprojekt\\Neuer Ordner\\buchhaltung\\implementierung\\buchhaltung\\CustomControls\\CustomControls.csproj"
             },
-            "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\Database\\Database.csproj": {
-              "projectPath": "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\Database\\Database.csproj"
+            "C:\\Users\\Joshua\\Documents\\HBFSWI\\Gruppenprojekt\\Neuer Ordner\\buchhaltung\\implementierung\\buchhaltung\\Database\\Database.csproj": {
+              "projectPath": "C:\\Users\\Joshua\\Documents\\HBFSWI\\Gruppenprojekt\\Neuer Ordner\\buchhaltung\\implementierung\\buchhaltung\\Database\\Database.csproj"
             },
-            "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\Styling\\Styling.csproj": {
-              "projectPath": "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\Styling\\Styling.csproj"
+            "C:\\Users\\Joshua\\Documents\\HBFSWI\\Gruppenprojekt\\Neuer Ordner\\buchhaltung\\implementierung\\buchhaltung\\Styling\\Styling.csproj": {
+              "projectPath": "C:\\Users\\Joshua\\Documents\\HBFSWI\\Gruppenprojekt\\Neuer Ordner\\buchhaltung\\implementierung\\buchhaltung\\Styling\\Styling.csproj"
             }
           }
         }
