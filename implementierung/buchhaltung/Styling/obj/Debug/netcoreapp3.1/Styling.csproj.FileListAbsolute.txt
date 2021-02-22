@@ -44,3 +44,30 @@ D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\S
 D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\Styling\obj\Debug\netcoreapp3.1\Settings\Constants.baml
 D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\Styling\obj\Debug\netcoreapp3.1\Styles\TextBlock.baml
 D:\Daniel\Documents\github\sot_project\buchhaltung\implementierung\buchhaltung\Styling\obj\Debug\netcoreapp3.1\Styling.g.resources
+C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\Styling\bin\Debug\netcoreapp3.1\CustomControls.exe
+C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\Styling\bin\Debug\netcoreapp3.1\Styling.exe
+C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\Styling\bin\Debug\netcoreapp3.1\Styling.deps.json
+C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\Styling\bin\Debug\netcoreapp3.1\Styling.runtimeconfig.json
+C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\Styling\bin\Debug\netcoreapp3.1\Styling.runtimeconfig.dev.json
+C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\Styling\bin\Debug\netcoreapp3.1\Styling.dll
+C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\Styling\bin\Debug\netcoreapp3.1\Styling.pdb
+C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\Styling\bin\Debug\netcoreapp3.1\CustomControls.dll
+C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\Styling\bin\Debug\netcoreapp3.1\CustomControls.pdb
+C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\Styling\obj\Debug\netcoreapp3.1\Styling.csprojAssemblyReference.cache
+C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\Styling\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\Styling\obj\Debug\netcoreapp3.1\Styling_MarkupCompile.cache
+C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\Styling\obj\Debug\netcoreapp3.1\Styling_MarkupCompile.lref
+C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\Styling\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\Styling\obj\Debug\netcoreapp3.1\Colors\Brushes.baml
+C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\Styling\obj\Debug\netcoreapp3.1\Colors\Colors.baml
+C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\Styling\obj\Debug\netcoreapp3.1\DefaultStyles.baml
+C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\Styling\obj\Debug\netcoreapp3.1\Settings\Constants.baml
+C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\Styling\obj\Debug\netcoreapp3.1\Styles\TextBlock.baml
+C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\Styling\obj\Debug\netcoreapp3.1\Styling.g.resources
+C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\Styling\obj\Debug\netcoreapp3.1\Styling.AssemblyInfoInputs.cache
+C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\Styling\obj\Debug\netcoreapp3.1\Styling.AssemblyInfo.cs
+C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\Styling\obj\Debug\netcoreapp3.1\Styling.csproj.CoreCompileInputs.cache
+C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\Styling\obj\Debug\netcoreapp3.1\Styling.csproj.CopyComplete
+C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\Styling\obj\Debug\netcoreapp3.1\Styling.dll
+C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\Styling\obj\Debug\netcoreapp3.1\Styling.pdb
+C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\Styling\obj\Debug\netcoreapp3.1\Styling.genruntimeconfig.cache

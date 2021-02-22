@@ -37,12 +37,12 @@ GO
 CREATE TABLE Steuersaetze (
   ID_Steuersatz int NOT NULL IDENTITY PRIMARY KEY,
   Bezeichnung nvarchar(100),
-  Steuersatz decimal
+  Steuersatz decimal (18, 2)
 );
 
 CREATE TABLE Einkauf (
   ID_Einkauf int NOT NULL IDENTITY PRIMARY KEY, 
-  Betrag_Netto decimal,
+  Betrag_Netto decimal (18, 2),
   Datum date,
   ID_Steuersatz int
   CONSTRAINT fk_SteuersatzEinkauf 
@@ -53,7 +53,7 @@ CREATE TABLE Einkauf (
 
 CREATE TABLE Verkauf (
   ID_Verkauf int IDENTITY NOT NULL PRIMARY KEY, 
-  Betrag_Netto decimal,
+  Betrag_Netto decimal (18, 2),
   Datum date,
   ID_Steuersatz int
   CONSTRAINT fk_SteuersatzVerkauf 
@@ -64,12 +64,12 @@ CREATE TABLE Verkauf (
 CREATE TABLE Personal (
   ID_Personal int IDENTITY NOT NULL PRIMARY KEY,
   Nachname nvarchar(50),
-  Stundenlohn decimal,
+  Stundenlohn decimal (18, 2),
 );
 
 CREATE TABLE Arbeitszeiten (
   ID_Arbeitszeit int IDENTITY NOT NULL PRIMARY KEY, 
-  Arbeitsstunden decimal,
+  Arbeitsstunden decimal (18, 2),
   Datum date,
   ID_Personal int,
   CONSTRAINT fk_Personal 
@@ -81,7 +81,7 @@ CREATE TABLE Arbeitszeiten (
 CREATE TABLE Fixkosten (
   ID_Fixkosten int IDENTITY NOT NULL PRIMARY KEY, 
   Bezeichnung nvarchar(50),
-  Betrag decimal,	
+  Betrag decimal (18, 2),	
   Datum date
 );
 

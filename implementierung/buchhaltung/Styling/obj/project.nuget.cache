@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aua8xlQryuEh/ad8w2xJXdKjxLPKxjhJneOJMaJ1gMbCXMs2W1C0N7HoXhwKDbpJ7VLulx2xDdd+tmjunrzHzQ==",
+  "dgSpecHash": "VesPpSpxuME9VrD4AVSdksu+7VhK2AsR29Fcw72DL+TnYE/YyA5X2qJFsOAchWV+ujPMWCPN29DXEFkG4a9dOw==",
   "success": true,
-  "projectFilePath": "D:\\Daniel\\Documents\\github\\sot_project\\buchhaltung\\implementierung\\buchhaltung\\Styling\\Styling.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\dboss\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\Joshua\\Documents\\HBFSWI\\Gruppenprojekt\\Neuer Ordner\\buchhaltung\\implementierung\\buchhaltung\\Styling\\Styling.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
