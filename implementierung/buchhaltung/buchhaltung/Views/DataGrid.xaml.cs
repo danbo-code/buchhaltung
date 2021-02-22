@@ -45,15 +45,67 @@ namespace Shell.Views
                 case 1:
                     Context.Einkauf.Load();
                     CollectionView = CollectionViewSource.GetDefaultView(Context.Einkauf.Local.ToObservableCollection());
-                    Anzeige_tabellen.DataContext = CollectionView;
+                    
                     break;
 
                 case 2:
                     Context.Einkauf.Load();
                     CollectionView = CollectionViewSource.GetDefaultView(Context.Einkauf.Local.ToObservableCollection());
+                    CollectionView.Filter = (x => Ausgabe_Filter((Einkauf)x));
+                    break;
+
+                case 3:
+                    Context.Einkauf.Load();
+                    CollectionView = CollectionViewSource.GetDefaultView(Context.Einkauf.Local.ToObservableCollection());
+                    CollectionView.Filter = (x => Ausgabe_Filter((Einkauf)x));
+                    break;
+
+                case 4:
+                    Context.Verkauf.Load();
+                    CollectionView = CollectionViewSource.GetDefaultView(Context.Verkauf.Local.ToObservableCollection());
                     
                     break;
+
+                case 5:
+                    Context.Verkauf.Load();
+                    CollectionView = CollectionViewSource.GetDefaultView(Context.Verkauf.Local.ToObservableCollection());
+                    CollectionView.Filter = (x => Ausgabe_Filter((Verkauf)x));
+                    break;
+
+                case 6:
+                    Context.Verkauf.Load();
+                    CollectionView = CollectionViewSource.GetDefaultView(Context.Verkauf.Local.ToObservableCollection());
+                    CollectionView.Filter = (x => Ausgabe_Filter((Verkauf)x));
+                    break;
+
+                case 7:
+                    Context.Personal.Load();
+                    CollectionView = CollectionViewSource.GetDefaultView(Context.Personal.Local.ToObservableCollection());
+                    
+                    break;
+
+                case 8:
+                    Context.Arbeitszeiten.Load();
+                    CollectionView = CollectionViewSource.GetDefaultView(Context.Arbeitszeiten.Local.ToObservableCollection());
+
+                    break;
+
+                case 9:
+                    Context.Fixkosten.Load();
+                    CollectionView = CollectionViewSource.GetDefaultView(Context.Fixkosten.Local.ToObservableCollection());
+
+                    break;
+
+                case 10:
+                    Context.Steuersaetze.Load();
+                    CollectionView = CollectionViewSource.GetDefaultView(Context.Steuersaetze.Local.ToObservableCollection());
+
+                    break;
+
+                default:
+                    break;
             }
+            Anzeige_tabellen.DataContext = CollectionView;
         }
 
         private bool Ausgabe_Filter(object o)
