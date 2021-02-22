@@ -166,3 +166,4 @@ C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\impleme
 C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\Database\obj\Debug\netcoreapp3.1\Database.dll
 C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\Database\obj\Debug\netcoreapp3.1\Database.pdb
 C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\Database\obj\Debug\netcoreapp3.1\Database.genruntimeconfig.cache
+C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\Database\obj\Debug\netcoreapp3.1\Database.csprojAssemblyReference.cache

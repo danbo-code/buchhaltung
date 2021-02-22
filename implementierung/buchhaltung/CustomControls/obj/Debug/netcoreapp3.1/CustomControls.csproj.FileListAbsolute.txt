@@ -42,4 +42,3 @@ C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\impleme
 C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\CustomControls\obj\Debug\netcoreapp3.1\CustomControls.dll
 C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\CustomControls\obj\Debug\netcoreapp3.1\CustomControls.pdb
 C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\CustomControls\obj\Debug\netcoreapp3.1\CustomControls.genruntimeconfig.cache
-C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\CustomControls\obj\Debug\netcoreapp3.1\CustomControls.csprojAssemblyReference.cache

@@ -5,22 +5,12 @@ Das System erfasst alle Einnahmen und Ausgaben (Personal, Einkauf, Fixkosten) de
 und berechnet daraus die Steuern und den Gewinn bzw. Verlust.
 
 Nutzung des Programmes:
-Auf Tab 1 werden die einzelnen Beträge des Restaurants eingetragen. Aus der Combobox werden die einzelnen Kategorien
-ausgewählt und dann werden die Beträge eingetragen und gespeichert.
-
-In der Tabelle (Tab 2) kann man sich Beträge aus verschiedenen Zeiträumen und verschiedenen Kategorien anzeigen lassen und ändern.
-
-Auf Tab 3 (Auswertung) werden zu den einzelnen eingetragenen Beträgen die Umsatzsteuer, die Vorsteuer, die Gewinnsteuer und
-den Reingewinn/-verlust berechnet.
-
-Screenshots:
-Tab 1
+Auf Tab 1 können den Datenbank-Tabellen neue Einträge hinzugefügt werden. Aus der Combobox werden die einzelnen Kategorien
+ausgewählt und dann können in dem Datagrid neue Zeilen hinzugefügt bzw. bestehende Einträge verändert werden.
 
 
-Tab 2
-
-
-Tab 3
+Auf Tab 2 (Auswertung) werden zu den einzelnen eingetragenen Beträgen die Umsatzsteuer, die Vorsteuer, die Gewinnsteuer und
+den Reingewinn/-verlust berechnet. Hierzu Wählt man oben das Jahr und ggf. den Monat aus.
 
 
 Teammiglieder:
