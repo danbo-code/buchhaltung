@@ -17,7 +17,7 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <TextBlock Grid.Row="0" Grid.ColumnSpan="2">Selektion einzelner Monate oder eines ganzen Jahres, sofern kein Monat ausgewählt ist.</TextBlock>
+        <TextBlock Grid.Row="0" Grid.ColumnSpan="2">Welche Tabelle möchten Sie einsehen?.</TextBlock>
         
         <ComboBox Margin="10,0" x:Name="Auswahl_Tabelle" Grid.Row="2" Grid.Column="0" SelectionChanged="Auswahl_Tabelle_SelectionChanged">
             <ComboBoxItem Content="1 Einkauf Gesamt"></ComboBoxItem>
