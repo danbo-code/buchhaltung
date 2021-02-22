@@ -8,12 +8,32 @@
              d:DesignHeight="450" d:DesignWidth="800" Loaded="Window_Loaded" >
     <Grid>
         <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="20"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="10*"/>
         </Grid.RowDefinitions>
-        <ComboBox></ComboBox>
-        <ComboBox></ComboBox>
-        <DataGrid x:Name="test" Grid.Row="1" ItemsSource="{Binding ''}" AutoGenerateColumns="False" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="0" Grid.ColumnSpan="2">Selektion einzelner Monate oder eines ganzen Jahres, sofern kein Monat ausgewählt ist.</TextBlock>
+        <ComboBox  Margin="10,0" x:Name="Year" Grid.Row="2" Grid.Column="0"></ComboBox>
+        <ComboBox Margin="10,0" x:Name="Month" Grid.Row="2" Grid.Column="1">
+            <ComboBoxItem Content="Januar"></ComboBoxItem>
+            <ComboBoxItem Content="Februar"></ComboBoxItem>
+            <ComboBoxItem Content="März"></ComboBoxItem>
+            <ComboBoxItem Content="April"></ComboBoxItem>
+            <ComboBoxItem Content="Mai"></ComboBoxItem>
+            <ComboBoxItem Content="Juni"></ComboBoxItem>
+            <ComboBoxItem Content="Juli"></ComboBoxItem>
+            <ComboBoxItem Content="August"></ComboBoxItem>
+            <ComboBoxItem Content="September"></ComboBoxItem>
+            <ComboBoxItem Content="Oktober"></ComboBoxItem>
+            <ComboBoxItem Content="November"></ComboBoxItem>
+            <ComboBoxItem Content="Dezember"></ComboBoxItem>
+        </ComboBox>
+        <DataGrid x:Name="test" Grid.Row="3" Grid.RowSpan="3" Grid.ColumnSpan="2" ItemsSource="{Binding ''}" AutoGenerateColumns="False" >
             <DataGrid.Columns>
                 <DataGridTextColumn Header="IDEinkauf" Binding="{Binding IdEinkauf}" />
                 <DataGridTextColumn Header="Betrag"  Binding="{Binding BetragNetto}" />

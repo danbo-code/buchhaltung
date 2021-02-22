@@ -10,6 +10,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Database.Models;
+using System.ComponentModel;
+using Microsoft.EntityFrameworkCore;
 
 namespace Shell.Views
 {
@@ -21,6 +24,11 @@ namespace Shell.Views
         public Calculation()
         {
             InitializeComponent();
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }

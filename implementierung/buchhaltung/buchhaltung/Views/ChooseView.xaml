@@ -17,13 +17,14 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Grid Grid.Row="0" HorizontalAlignment="Stretch" VerticalAlignment="Center" MaxWidth="200" Grid.Column="0">
+        <Grid Grid.Row="0" Grid.Column="0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="20"/>
                 <RowDefinition Height="20"/>
+                <RowDefinition Height="20"/>
+                <RowDefinition Height="20"/>
             </Grid.RowDefinitions>
-            <TextBlock></TextBlock>
-            <ComboBox Grid.Row="2" Text="penis" >
+            <ComboBox Grid.Row="4">
                 <ComboBoxItem Content="Inhouse"></ComboBoxItem>
                 <ComboBoxItem Content="ToGo"></ComboBoxItem>
                 <ComboBoxItem Content="Fixkosten"></ComboBoxItem>
@@ -32,5 +33,6 @@
                 <ComboBoxItem Content="Personal"></ComboBoxItem>
             </ComboBox>
         </Grid>
+        
     </Grid>
 </UserControl>

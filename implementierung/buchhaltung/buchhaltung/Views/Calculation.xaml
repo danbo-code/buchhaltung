@@ -61,6 +61,6 @@
             <ComboBoxItem Content="November"></ComboBoxItem>
             <ComboBoxItem Content="Dezember"></ComboBoxItem>
         </ComboBox>
-        <ComboBox></ComboBox>
+        <TextBox Grid.Row="0" Grid.Column="0" MaxLength="4" Text="Jahr"></TextBox>
     </Grid>
 </UserControl>
