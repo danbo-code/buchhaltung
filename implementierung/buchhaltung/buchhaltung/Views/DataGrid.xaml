@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Shell.Views"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800" Loaded="Window_Loaded" >
+             d:DesignHeight="450" d:DesignWidth="800"  >
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="20"/>
@@ -18,27 +18,23 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <TextBlock Grid.Row="0" Grid.ColumnSpan="2">Selektion einzelner Monate oder eines ganzen Jahres, sofern kein Monat ausgewählt ist.</TextBlock>
-        <ComboBox  Margin="10,0" x:Name="Year" Grid.Row="2" Grid.Column="0"></ComboBox>
-        <ComboBox Margin="10,0" x:Name="Month" Grid.Row="2" Grid.Column="1">
-            <ComboBoxItem Content="Januar"></ComboBoxItem>
-            <ComboBoxItem Content="Februar"></ComboBoxItem>
-            <ComboBoxItem Content="März"></ComboBoxItem>
-            <ComboBoxItem Content="April"></ComboBoxItem>
-            <ComboBoxItem Content="Mai"></ComboBoxItem>
-            <ComboBoxItem Content="Juni"></ComboBoxItem>
-            <ComboBoxItem Content="Juli"></ComboBoxItem>
-            <ComboBoxItem Content="August"></ComboBoxItem>
-            <ComboBoxItem Content="September"></ComboBoxItem>
-            <ComboBoxItem Content="Oktober"></ComboBoxItem>
-            <ComboBoxItem Content="November"></ComboBoxItem>
-            <ComboBoxItem Content="Dezember"></ComboBoxItem>
+        
+        <ComboBox Margin="10,0" x:Name="Auswahl_Tabelle" Grid.Row="2" Grid.Column="0" SelectionChanged="Auswahl_Tabelle_SelectionChanged">
+            <ComboBoxItem Content="1 Einkauf Gesamt"></ComboBoxItem>
+            <ComboBoxItem Content="2 Einkauf Food"></ComboBoxItem>
+            <ComboBoxItem Content="3 Einkauf NonFood"></ComboBoxItem>
+            <ComboBoxItem Content="4 Verkauf Gesamt"></ComboBoxItem>
+            <ComboBoxItem Content="5 Verkauf InHouse"></ComboBoxItem>
+            <ComboBoxItem Content="6 Verkauf ToGo"></ComboBoxItem>
+            <ComboBoxItem Content="7 Personal"></ComboBoxItem>
+            <ComboBoxItem Content="8 Arbeitszeiten"></ComboBoxItem>
+            <ComboBoxItem Content="9 Fixkosten"></ComboBoxItem>
+            <ComboBoxItem Content="10 Steuersätze"></ComboBoxItem>
+            
         </ComboBox>
-        <DataGrid x:Name="test" Grid.Row="3" Grid.RowSpan="3" Grid.ColumnSpan="2" CanUserAddRows="True" ItemsSource="{Binding ''}" AutoGenerateColumns="False" >
+        <DataGrid x:Name="Anzeige_tabellen" Grid.Row="3" Grid.RowSpan="3" Grid.ColumnSpan="2" CanUserAddRows="True" ItemsSource="{Binding}" AutoGenerateColumns="True" >
             <DataGrid.Columns>
-                <DataGridTextColumn Header="IDEinkauf" Binding="{Binding IdEinkauf}" />
-                <DataGridTextColumn Header="Betrag"  Binding="{Binding BetragNetto}" />
-                <DataGridTextColumn Header="Datum"  Binding="{Binding Datum}" />
-                <DataGridTextColumn Header="IDSteuersatz" Binding="{Binding IdSteuersatz}" />
+                
             </DataGrid.Columns>
         </DataGrid>
     </Grid>

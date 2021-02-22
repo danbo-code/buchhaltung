@@ -13,7 +13,10 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using Database.Models;
+using System.ComponentModel;
+using Microsoft.EntityFrameworkCore;
+using System.Linq;
 namespace Shell.Views
 {
     /// <summary>
@@ -23,7 +26,7 @@ namespace Shell.Views
     {
         private ICollectionView CollectionView;
 
-        private Database.Models.buchhaltungContext Context = new buchhaltungContext();
+        private buchhaltungContext Context = new buchhaltungContext();
 
 
         public DataGrid()
@@ -31,11 +34,58 @@ namespace Shell.Views
             InitializeComponent();
         }
 
-        private void Window_Loaded(object sender, RoutedEventArgs e)
+        
+
+        private void Auswahl_Tabelle_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            Context.Einkauf.Load();
-            CollectionView = CollectionViewSource.GetDefaultView(Context.Einkauf.Local.ToObservableCollection());
-            test.DataContext = CollectionView;
+            int auswahl = Convert.ToInt32(Auswahl_Tabelle.SelectedItem.ToString().Split(' ')[1]);
+
+            switch (auswahl)
+            {
+                case 1:
+                    Context.Einkauf.Load();
+                    CollectionView = CollectionViewSource.GetDefaultView(Context.Einkauf.Local.ToObservableCollection());
+                    Anzeige_tabellen.DataContext = CollectionView;
+                    break;
+
+                case 2:
+                    Context.Einkauf.Load();
+                    CollectionView = CollectionViewSource.GetDefaultView(Context.Einkauf.Local.ToObservableCollection());
+                    
+                    break;
+            }
+        }
+
+        private bool Ausgabe_Filter(object o)
+        {
+            int auswahl = Convert.ToInt32(Auswahl_Tabelle.SelectedItem.ToString().Split(' ')[1]);
+            bool filter = false;
+            switch (auswahl)
+            {
+                case 2:
+                    Einkauf food = o as Einkauf;
+                    filter = food.IdSteuersatz == 1;
+                    break;
+
+                case 3:
+                    Einkauf einkauf = o as Einkauf;
+                    filter = einkauf.IdSteuersatz == 2;
+                    break;
+
+                case 5:
+                    Verkauf inhouse = o as Verkauf;
+                    filter = inhouse.IdSteuersatz == 3;
+                    break;
+
+                case 6:
+                    Verkauf togo = o as Verkauf;
+                    filter = togo.IdSteuersatz == 4;
+                    break;
+
+                default:
+                    break;
+            }
+            return filter;
         }
     }
 }

@@ -34,7 +34,6 @@ C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\impleme
 C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\CustomControls\bin\Debug\netcoreapp3.1\CustomControls.runtimeconfig.dev.json
 C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\CustomControls\bin\Debug\netcoreapp3.1\CustomControls.dll
 C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\CustomControls\bin\Debug\netcoreapp3.1\CustomControls.pdb
-C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\CustomControls\obj\Debug\netcoreapp3.1\CustomControls.csprojAssemblyReference.cache
 C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\CustomControls\obj\Debug\netcoreapp3.1\App.g.cs
 C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\CustomControls\obj\Debug\netcoreapp3.1\CustomControls_MarkupCompile.cache
 C:\Users\Joshua\Documents\HBFSWI\Gruppenprojekt\Neuer Ordner\buchhaltung\implementierung\buchhaltung\CustomControls\obj\Debug\netcoreapp3.1\CustomControls.AssemblyInfoInputs.cache
